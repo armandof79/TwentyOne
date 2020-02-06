@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7EF2A029-5BE3-4DFB-AC81-4E57D1BB165F}</ProjectGuid>
+    <ProjectGuid>{5F364204-1F76-49B2-95F7-57FC537E3A08}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Assignment_p176</RootNamespace>
-    <AssemblyName>Assignment-p176</AssemblyName>
+    <RootNamespace>_21Game</RootNamespace>
+    <AssemblyName>21Game</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -41,9 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Employee.cs" />
-    <Compile Include="IQuittable.cs" />
-    <Compile Include="Person.cs" />
+    <Compile Include="Card.cs" />
+    <Compile Include="Deck.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

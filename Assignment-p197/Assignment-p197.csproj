@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7EF2A029-5BE3-4DFB-AC81-4E57D1BB165F}</ProjectGuid>
+    <ProjectGuid>{A410ACE4-EFA1-413E-966A-E0A5B1AC3D49}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Assignment_p176</RootNamespace>
-    <AssemblyName>Assignment-p176</AssemblyName>
+    <RootNamespace>Assignment_p197</RootNamespace>
+    <AssemblyName>Assignment-p197</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -41,9 +41,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Employee.cs" />
-    <Compile Include="IQuittable.cs" />
-    <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
